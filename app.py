@@ -10,3 +10,5 @@ def farewell(name: str) -> str:
 
 def shout(name: str) -> str:
     return f"HEY {name.upper()}!"
+
+# fork-variant test change for C-C2 (external author, no org access)
