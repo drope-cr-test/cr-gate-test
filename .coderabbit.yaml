@@ -1,9 +1,10 @@
 # Base config for cr-gate-test (default branch).
-# Automatic approvals ON + description pre-merge check in ERROR mode:
-# a PR with an empty description FAILS a pre-merge check (needed by C-C2/C-C4).
+# Automatic approvals ON + description + title pre-merge checks in ERROR mode.
 reviews:
   auto_approvals:
     enabled: true
   pre_merge_checks:
     description:
+      mode: error
+    title:
       mode: error
