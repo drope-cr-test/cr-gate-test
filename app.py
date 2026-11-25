@@ -14,3 +14,5 @@ def shout(name: str) -> str:
 # fork-variant test change for C-C2 (external author, no org access)
 
 # C-C4 test: trivial comment change
+
+# C-C4 control: second trivial comment change
