@@ -10,3 +10,5 @@ def farewell(name: str) -> str:
 
 def shout(name: str) -> str:
     return f"HEY {name.upper()}!"
+
+# C-C4 test: trivial comment change
